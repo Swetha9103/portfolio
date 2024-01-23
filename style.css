@@ -1,0 +1,44 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    width: 30%;
+    left: 50px;
+    background-color: #81848b;
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  
+  /* Control the right side */
+  .right {
+    width: 70%;
+    right: 50px;
+    background-color: rgb(245, 244, 244);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  img{
+    border-radius: 50%;
+    align-items: center;
+  }
+  .center{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50%;
+  }
+
+  i.size {
+    font-size: 100px;
+ }
+ 
